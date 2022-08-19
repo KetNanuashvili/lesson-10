@@ -1,0 +1,73 @@
+.header-bg{
+    background-image: url('../images/main-page.jpg');
+    height: 1080px;
+    width: 100%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    position: relative;
+}
+.navigation-wraper{
+    padding: 40px 77px 117.8px 235px;
+}
+.navigation-div{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+.burger-bar{
+    display: none;
+}
+.nav-ul{
+    display: flex;
+    justify-content: space-between;
+}
+.nav-li:not(small){
+    margin-right: 54px;
+}
+.color{
+    font-family: 'Montserrat';
+    color: #FFFFFF;
+    font-size: 16px;
+}
+/*contact div*/
+.contact-div{
+    margin-top: 117.8px;
+}
+.h2-contact{
+    font-size:85px;
+    color: #FFFFFF;
+    font-family: 'Avengeance Mightiest Avenger';
+}
+.buy-paragrap{
+    max-width: 375px;
+    width: 100%;
+    font-size: 30px;
+    margin-top: 117px;
+    margin-bottom: 62px;
+    color: #FFFFFF;
+    font-family: 'Montserrat bold';
+}
+.order-div{
+    max-width: 255px;
+    width: 100%;
+    height: 68px;
+    background-color: #FFAA00;
+    border-radius: 90px;
+    display: flex;
+    position: relative;
+    box-shadow: -3px 5px 7px #A80E0E;
+}
+.order-div:hover{
+    cursor: pointer;
+    background-color: #FF7F50;
+    box-shadow: -5px 7px 12px #A80E0E;
+}
+.order-h6{
+    position: absolute;
+    color: #A80E0E;
+    font-family: 'Montserrat';
+    top:50%;
+    left:50%;
+    transform: translate(-50%,-50%);
+}
