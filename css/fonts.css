@@ -1,10 +1,10 @@
 @font-face {
     font-family: 'Montserrat';
     src: url('../fonts/monsterrat-light/Montserrat-Light.eot');
-    src: url('../fonts/monsterrat-light/Montserrat-Light.eot?#iefix') format('embedded-opentype'),
+    src: url('../fonts/monsterrat-light/Montserrat-Light.ttf') format('truetype'),
+        url('../fonts/monsterrat-light/Montserrat-Light.eot?#iefix') format('embedded-opentype'),
         url('../fonts/monsterrat-light/Montserrat-Light.woff2') format('woff2'),
         url('../fonts/monsterrat-light/Montserrat-Light.woff') format('woff'),
-        url('../fonts/monsterrat-light/Montserrat-Light.ttf') format('truetype'),
         url('../fonts/monsterrat-light/Montserrat-Light.svg#Montserrat-Light') format('svg');
     font-weight: 300;
     font-style: normal;
@@ -13,7 +13,8 @@
 @font-face {
     font-family: 'Avengeance Mightiest Avenger';
     src: url('../fonts/avengeance/AvengeanceMightiestAvenger.eot');
-    src: url('../fonts/avengeance/AvengeanceMightiestAvenger.eot?#iefix') format('embedded-opentype'),
+    src:  url('../fonts/avengeance/AvengeanceMightiestAvenger.ttf') format('truetype'),
+        url('../fonts/avengeance/AvengeanceMightiestAvenger.eot?#iefix') format('embedded-opentype'),
         url('../fonts/avengeance/AvengeanceMightiestAvenger.woff2') format('woff2'),
         url('../fonts/avengeance/AvengeanceMightiestAvenger.woff') format('woff'),
         url('../fonts/avengeance/AvengeanceMightiestAvenger.ttf') format('truetype'),
@@ -25,7 +26,8 @@
 @font-face {
     font-family: 'Montserrat bold';
     src: url('../fonts/monsterrat/Montserrat-Bold.eot');
-    src: url('../fonts/monsterrat/Montserrat-Bold.eot?#iefix') format('embedded-opentype'),
+    src: url('../fonts/monsterrat/Montserrat-Bold.ttf') format('truetype'),
+        url('../fonts/monsterrat/Montserrat-Bold.eot?#iefix') format('embedded-opentype'),
         url('../fonts/monsterrat/Montserrat-Bold.woff2') format('woff2'),
         url('../fonts/monsterrat/Montserrat-Bold.woff') format('woff'),
         url('../fonts/monsterrat/Montserrat-Bold.ttf') format('truetype'),
@@ -37,7 +39,8 @@
 @font-face {
     font-family: 'Montserrat regular';
     src: url('../fonts/monsterrat-regular/Montserrat-Regular.eot');
-    src: url('../fonts/monsterrat-regular/Montserrat-Regular.eot?#iefix') format('embedded-opentype'),
+    src: url('../fonts/monsterrat-regular/Montserrat-Regular.ttf') format('truetype'),
+         url('../fonts/monsterrat-regular/Montserrat-Regular.eot?#iefix') format('embedded-opentype'),
         url('../fonts/monsterrat-regular/Montserrat-Regular.woff2') format('woff2'),
         url('../fonts/monsterrat-regular/Montserrat-Regular.woff') format('woff'),
         url('../fonts/monsterrat-regular/Montserrat-Regular.ttf') format('truetype'),

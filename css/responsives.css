@@ -1,0 +1,227 @@
+@media(max-width:1300px){
+    .navigation-wraper{
+        padding: 40px 30px 117.8px 30px;
+       }
+    /*six divs*/
+    .six-divs{
+        width: 81%;
+        display: flex;
+        flex-wrap: wrap;
+    }
+    .small-divs6:nth-child(2),
+    .small-divs6:nth-child(5){
+       margin:0 43px;
+    }
+    .small-divs6:nth-child(1),
+    .small-divs6:nth-child(2),
+    .small-divs6:nth-child(3){
+        margin-bottom: 70px;
+    }
+    /*third section*/
+    .third-section-div{
+        display: flex;
+        flex-direction: column-reverse;
+        align-items: center;
+    }
+    .texts-div{
+        margin: 100px auto;
+        text-align: center;
+        padding: 0;
+    }
+    /*four divs*/
+    .four-divs{
+        display: flex;
+        flex-wrap: wrap;
+        max-width: 80%;
+        padding:0 60px;
+    }
+    .four-descripedivs{
+        max-width: 40%;
+    }
+    .four-descripedivs:nth-child(1),
+    .four-descripedivs:nth-child(2){
+        margin-bottom: 40px;
+    }
+/* girds section*/
+    .grid-container{
+        width: 80%;
+    }
+
+}
+@media(max-width:1190px){
+    .grid-container{
+        width: 90%;
+    }
+}
+@media(max-width:1060px){
+    .grid-container{
+        width: 95%;
+    }
+}
+@media(max-width:1024px){
+    .navigation-wraper{
+        padding: 40px 10px 117.8px 10px;
+        width: 80%;
+       }
+    .six-divs{
+        width: 81%;
+        display: flex;
+        flex-wrap: wrap;
+    }
+    .small-divs6:nth-child(2),
+    .small-divs6:nth-child(5){
+       margin:0;
+    }
+    .nav-li:not(small) {
+        margin-right: 20px;
+    }
+    .deliver{
+        width: 90%;
+    }
+    .grid-container{
+        column-gap: 20px;
+        column-gap: 20px;
+        grid-template-columns: repeat(auto-fill, minmax(300px, 400px));
+    }
+    /*section5*/
+    .four-divs{
+        display: flex;
+        flex-wrap: wrap;
+        max-width: 80%;
+        align-items: center;
+        flex-direction: column;
+    }
+    .four-descripedivs{
+        max-width: 70%;
+    }
+    .four-descripedivs:nth-child(3){
+        margin-bottom: 40px;
+    }
+
+}
+@media(max-width:970px){
+    .six-divs{
+        width: 70%;
+        display: flex;
+        flex-wrap: wrap;
+    }
+}
+@media(max-width:904px){
+    .grid-container{
+       grid-template-columns: repeat(auto-fill, minmax(250px, 500px));
+       width: 60%;
+    }
+}
+/* media 768px*/
+@media(max-width:768px){
+    .navigation{
+        display: none;
+    }
+    .burger-bar{
+        margin-top: 50px;
+        display: block;
+        color: white;
+        font-size: 46px;
+    }
+    .burger-bar:hover{
+        cursor: pointer;
+        color: brown;
+
+    }
+    .six-divs{
+        width: 80%;
+        display: flex;
+        flex-wrap: wrap;
+    }
+    .contact-div{
+        align-items: center;
+    }
+    .h2-contact{
+        font-size: 50px;
+    }
+    .buy-paragrap{
+        font-size: 15px;
+        text-align: center;
+    }
+    .h4-title{
+        font-size: 30px;
+        text-align: center;
+    }
+    .paragrap-4{
+        font-size: 15px;
+        text-align: center;
+    }
+}
+@media(max-width:640px){
+    .six-divs{
+        width: 50.01%;
+        display: flex;
+        flex-direction: column;
+        padding: 0 auto;
+    }
+   
+    .small-divs6:nth-child(1),
+    .small-divs6:nth-child(2),
+    .small-divs6:nth-child(3),
+    .small-divs6:nth-child(4),
+    .small-divs6:nth-child(5){
+        margin-bottom: 70px;
+    }
+    .grid-container{
+        width: 80%;
+     }
+     .four-divs{
+      padding: 0;
+     }
+}
+@media(max-width:450px){
+  .attribute-paragrap{
+    text-align: center;
+ }
+}
+@media(max-width:420px){
+    .burger-bar{
+        margin-top: 50px;
+        margin-left: 15px;
+        display: block;
+        color: white;
+        font-size: 40px;
+    }
+    .contact-div{
+        margin-top: 200px;
+    }
+    .h2-contact{
+        font-size: 30px;
+        text-align: center;
+    }
+    .order-div{
+        width: 200px;
+        margin: 0 auto;   
+    }
+    .six-divs{
+        width: 240px;
+    }
+    .grid-item{
+        width: 100%;
+        height: 400px;
+    }
+    .add-div{
+        width: 120px;
+    }
+    .add-h5{
+        font-size: 10px;
+    }
+    .menu-sender{
+        width: 220px;
+        margin-top: 50px;
+    }
+    .h5-menu{
+        font-size: 11px;
+    }
+    .four-divs{
+        display: flex;
+        flex-wrap: wrap;
+        max-width: 100%;
+       padding: 0;
+    }
+}
