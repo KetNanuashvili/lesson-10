@@ -1,3 +1,10 @@
+/*
+* Prefixed by https://autoprefixer.github.io
+* PostCSS: v8.4.14,
+* Autoprefixer: v10.4.7
+* Browsers: last 4 version
+*/
+
 @media(max-width:1300px){
     .navigation-wraper{
         padding: 40px 30px 117.8px 30px;
@@ -5,8 +12,11 @@
     /*six divs*/
     .six-divs{
         width: 81%;
+        display: -webkit-box;
+        display: -ms-flexbox;
         display: flex;
-        flex-wrap: wrap;
+        -ms-flex-wrap: wrap;
+            flex-wrap: wrap;
     }
     .small-divs6:nth-child(2),
     .small-divs6:nth-child(5){
@@ -19,9 +29,16 @@
     }
     /*third section*/
     .third-section-div{
+        display: -webkit-box;
+        display: -ms-flexbox;
         display: flex;
-        flex-direction: column-reverse;
-        align-items: center;
+        -webkit-box-orient: vertical;
+        -webkit-box-direction: reverse;
+            -ms-flex-direction: column-reverse;
+                flex-direction: column-reverse;
+        -webkit-box-align: center;
+            -ms-flex-align: center;
+                align-items: center;
     }
     .texts-div{
         margin: 100px auto;
@@ -30,8 +47,11 @@
     }
     /*four divs*/
     .four-divs{
+        display: -webkit-box;
+        display: -ms-flexbox;
         display: flex;
-        flex-wrap: wrap;
+        -ms-flex-wrap: wrap;
+            flex-wrap: wrap;
         max-width: 80%;
         padding:0 60px;
     }
@@ -65,8 +85,11 @@
        }
     .six-divs{
         width: 81%;
+        display: -webkit-box;
+        display: -ms-flexbox;
         display: flex;
-        flex-wrap: wrap;
+        -ms-flex-wrap: wrap;
+            flex-wrap: wrap;
     }
     .small-divs6:nth-child(2),
     .small-divs6:nth-child(5){
@@ -79,17 +102,27 @@
         width: 90%;
     }
     .grid-container{
-        column-gap: 20px;
+        -webkit-column-gap: 20px;
+           -moz-column-gap: 20px;
+                column-gap: 20px;
         column-gap: 20px;
         grid-template-columns: repeat(auto-fill, minmax(300px, 400px));
     }
     /*section5*/
     .four-divs{
+        display: -webkit-box;
+        display: -ms-flexbox;
         display: flex;
-        flex-wrap: wrap;
+        -ms-flex-wrap: wrap;
+            flex-wrap: wrap;
         max-width: 80%;
-        align-items: center;
-        flex-direction: column;
+        -webkit-box-align: center;
+            -ms-flex-align: center;
+                align-items: center;
+        -webkit-box-orient: vertical;
+        -webkit-box-direction: normal;
+            -ms-flex-direction: column;
+                flex-direction: column;
     }
     .four-descripedivs{
         max-width: 70%;
@@ -102,8 +135,11 @@
 @media(max-width:970px){
     .six-divs{
         width: 70%;
+        display: -webkit-box;
+        display: -ms-flexbox;
         display: flex;
-        flex-wrap: wrap;
+        -ms-flex-wrap: wrap;
+            flex-wrap: wrap;
     }
 }
 @media(max-width:904px){
@@ -130,11 +166,16 @@
     }
     .six-divs{
         width: 80%;
+        display: -webkit-box;
+        display: -ms-flexbox;
         display: flex;
-        flex-wrap: wrap;
+        -ms-flex-wrap: wrap;
+            flex-wrap: wrap;
     }
     .contact-div{
-        align-items: center;
+        -webkit-box-align: center;
+            -ms-flex-align: center;
+                align-items: center;
     }
     .h2-contact{
         font-size: 50px;
@@ -155,8 +196,13 @@
 @media(max-width:640px){
     .six-divs{
         width: 50.01%;
+        display: -webkit-box;
+        display: -ms-flexbox;
         display: flex;
-        flex-direction: column;
+        -webkit-box-orient: vertical;
+        -webkit-box-direction: normal;
+            -ms-flex-direction: column;
+                flex-direction: column;
         padding: 0 auto;
     }
    
@@ -219,8 +265,11 @@
         font-size: 11px;
     }
     .four-divs{
+        display: -webkit-box;
+        display: -ms-flexbox;
         display: flex;
-        flex-wrap: wrap;
+        -ms-flex-wrap: wrap;
+            flex-wrap: wrap;
         max-width: 100%;
        padding: 0;
     }
